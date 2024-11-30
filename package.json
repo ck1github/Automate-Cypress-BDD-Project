@@ -1,0 +1,27 @@
+{
+  "name": "cybdd",
+  "version": "1.0.0",
+  "description": "Boilerplate for implementing BDD (cucumber) in cypress",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.3",
+    "cypress": "^12.17.4",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "mochawesome": "^7.1.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step_definitions/",
+    "nonGlobalStepDefinitions": false
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "save-dev": "^0.0.1-security"
+  }
+}

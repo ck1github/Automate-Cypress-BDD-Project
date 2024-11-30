@@ -1,0 +1,17 @@
+{
+  "valid": {
+    "validemail": "chandrakantr1@gmail.com",
+    "password": "ckrathod@2024"
+  },
+  "invalid": {
+    "invemail": "invalid1useremail123@gmail.com",
+    "password": "admin1234"
+  },
+  "createaccountdata": {
+    "firstname": "Chandrakant",
+    "lastname": "Rathod",
+    "email_address": "chandrakantr12@gmail.com",
+    "password": "ckrathod@2024",
+    "confirmpassword": "ckrathod@2024"
+  }
+}
