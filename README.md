@@ -1,8 +1,6 @@
 # Implement Cucumber in Cypress 
 ## By **CK Rathod**
 
----
-
 ## 1. Initialize node project and install cypress 
 
 ```
